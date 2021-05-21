@@ -2,7 +2,7 @@
     display: filled;
     align-items: center;
     justify-content: center;
-    background-image: url(../img/hobolive-bw.png),
+    background-image: url(../img/hobolive-bw.jpg),
                     linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0,0));
     background-position-x: center;
     background-position-y: center;
