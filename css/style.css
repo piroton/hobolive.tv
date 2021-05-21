@@ -3,9 +3,11 @@
     align-items: center;
     justify-content: center;
     background-image: url(../img/hobolive-bw.png),
-                    linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0));
+                    linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0,0));
     background-position-x: center;
     background-position-y: center;
+    padding: none;
+    margin: none;
 }
 
 .arrange-vertically > * {
@@ -15,6 +17,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: auto;
 }
 .banner{
     width: 100%;
@@ -46,14 +50,30 @@
     width: 50%;
 }
 
-.imgautosize{
-    width:auto;
-    height:auto;
+.tablecol {
+    width: 33%;
+    font-size: large;
 }
 
 .credits{
     font-size: smaller;
+}
 
+.memberlist{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0px;
+    padding: 4px;
+    margin-bottom: 24px;
+    border: 0px;
+    background-color: rgba(88, 180, 255, 0.2);
+    text-align: center;
+    font-family: serif;
+}
+.icon {
+    height: 48px;
+    width: 48px;
 }
 
 @keyframes marquee {
